@@ -32,8 +32,9 @@
           "type": "photo",
           "message": "Lorem ipsum dolor sit amet, consecteturat\r\n adipiscing elit, sed do eiusmod tempor \r\nincididunt? http://bit.ly/145HD7S ",
           "image": [
-            "https://i.pinimg.com/originals/4f/d7/47/4fd747f1196d0ee814867fc76c7348eb.jpg"
-          ]
+            "https://therainbowplaysmusic.gr/wp-content/uploads/2019/07/amy-shamblen-BV8Ka-JE0Cs-unsplash2B252812529.jpg"
+          ],
+          "video": null          
         },
         "updated_at": "2021-06-17 08:41:15",
         "created_at": "2021-06-17 08:40:52",
@@ -54,8 +55,9 @@
           "type": "photo",
           "message": "Lorem ipsum dolor sit amet, consecteturat\r\n adipiscing elit, sed do eiusmod tempor \r\nincididunt? http://bit.ly/145HD7S ",
           "image": [
-            "https://s3-eu-west-1.amazonaws.com/a6apptest/public/files/58bab4018803fa0008413733_0A0szw7OSDIVt2rq80.jpeg"
-          ]
+            "https://therainbowplaysmusic.gr/wp-content/uploads/2019/07/amy-shamblen-BV8Ka-JE0Cs-unsplash2B252812529.jpg"
+          ],
+          "video": null
         },
         "updated_at": "2021-06-17 08:41:01",
         "created_at": "2021-06-17 08:40:50",
@@ -78,7 +80,7 @@
           "type": "photo",
           "message": "Lorem ipsum dolor sit amet, consecteturat \r\nadipiscing elit, sed do eiusmod.",
           "image": [
-            "https://s3-eu-west-1.amazonaws.com/a6apptest/public/files/58bab4018803fa0008413733_oD3qc1vlVTmg8pwWaJ.jpeg"
+            "https://images.unsplash.com/photo-1614633673914-0af3eae06970?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
           ]
         },
         "updated_at": "2021-06-17 08:42:18",
@@ -99,7 +101,8 @@
           "type": "photo",
           "message": "Lorem ipsum dolor sit amet, consecteturat \r\nadipiscing elit, sed do eiusmod.",
           "image": [
-            "https://s3-eu-west-1.amazonaws.com/a6apptest/public/files/58bab4018803fa0008413733_qPJUrz2XxgneyAplXE.jpeg"
+            "https://images.unsplash.com/photo-1614633673914-0af3eae06970?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=668&q=80"
+           
           ]
         },
         "updated_at": "2021-06-17 08:42:44",

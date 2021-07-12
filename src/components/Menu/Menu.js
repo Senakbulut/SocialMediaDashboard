@@ -12,9 +12,9 @@ function Menu() {
             <div className="container">
 		 <nav className="menu">
         <ul>
-				<input type="radio" name="menu" id="archive" checked />
+				<input type="radio" name="menu" id="archive"  />
 				<li>
-					<label for="archive" className="title" onClick={override}><img src="images/icon1.png" alt="" />  NOTIFICATIONS</label>
+					<label htmlFor="archive" className="title" onClick={override}><img src="images/icon1.png" alt="" />  NOTIFICATIONS</label>
 					<a href="#">New File</a>
 					<a href="#">Open File</a>
 					<a href="#">Save As...</a>
@@ -22,36 +22,36 @@ function Menu() {
 				</li>
 				<input type="radio" name="menu" id="edit"/>
 				<li>
-					<label for="edit" className="title" onClick={override}><img src="images/icon2.png" alt="" /> SUMMARY</label>
+					<label htmlFor="edit" className="title" onClick={override}><img src="images/icon2.png" alt="" /> SUMMARY</label>
 					<a href="#">Copy</a>
 					<a href="#">Cut</a>
 					<a href="#">Paste</a>
 					<a href="#">Undo</a>
 				</li>
-				<input type="radio" name="menu" id="tools"/>
+				<input type="radio" name="menu" id="tools" checked/>
 				<li>
-					<label for="tools" className="title" onClick={override}><img src="images/icon3.png" alt="" /> PUBLISH</label>
+					<label htmlFor="tools" className="title" onClick={override}><img src="images/icon3.png" alt="" /> PUBLISH</label>
 					<a href="#">Compose</a>
 					<a href="#">Report</a>
 				
 				</li>
 				<input type="radio" name="menu" id="preferences"/>
 				<li>
-					<label for="preferences" className="title" onClick={override}> <img src="images/icon4.png" alt="" /> ENGAGE</label>
+					<label htmlFor="preferences" className="title" onClick={override}> <img src="images/icon4.png" alt="" /> ENGAGE</label>
 					<a href="#">Browser</a>
 					<a href="#">Settings</a>
 					<a href="#">Packages</a>
 					<a href="#">Theme</a>
 				</li>
                 <li>
-					<label for="preferences" className="title" onClick={override}><img src="images/icon5.png" alt="" /> LISTEN</label>
+					<label htmlFor="preferences" className="title" onClick={override}><img src="images/icon5.png" alt="" /> LISTEN</label>
 					<a href="#">Browser</a>
 					<a href="#">Settings</a>
 					<a href="#">Packages</a>
 					<a href="#">Theme</a>
 				</li>
                 <li>
-					<label for="preferences" className="title" onClick={override}><img src="images/icon6.png" alt="" /> REPORT</label>
+					<label htmlFor="preferences" className="title" onClick={override}><img src="images/icon6.png" alt="" /> REPORT</label>
 					<a href="#">Browser</a>
 					<a href="#">Settings</a>
 					<a href="#">Packages</a>

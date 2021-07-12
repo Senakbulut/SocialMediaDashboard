@@ -1,51 +1,114 @@
 *{
 	margin: 0;
 	padding: 0;
-}
-.containerMain{
-	background-color: #F5F7F8;
-	background-size: cover;
-	width: 100%;
-	height: 100vh;
-}
-.wrapper{
-	padding: 5%;
-	margin-left: 13%;
-	display: flex;
-}
-.card{
-	width: 32%;
-	height: 425px;
-	background-color: white;
-	padding: 0px 15px 20px 0px;
-	border-radius: 5px;
-	margin-top: 5%;
-	margin-right: 5%;
-}
-.info{
-	margin-left: 45px;
-	transform: translateY(-110%);
-}
-.image img{
-	width: 95%;
-	padding-left: 5%;
-	margin-bottom: 5%;
-}
-.date{
-	color: #ACACAC;
-	font-size: 13px;
-	margin-top: 3%;
-	padding-left: 5%;
-	margin-right: 10%;
 	
 }
-.text{
+body{
+	background-color: #F5F7F8;
+}
+.card-img{
+	width: 250px;
+	height: 250px;
+}
+.card-body{
+	padding-left: 18%;
+	transform: translateY(-100%);
+	margin: 0 20px 0px 10px;
+}
+.card-text{
 	color: #959595;
 	text-align:justify;
 	font-weight: bold;
 	font-size: 12px;
-	margin: 5%;
 }
+.containerMain{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+   
+}
+.wrapper{
+	padding: 2%;
+	margin-left: 13%;
+	display: flex;
+	
+}
+.information{
+
+	width: 1000px;
+	position: absolute;
+	margin-left: 10px;
+}
+.dateheader{
+	color: #ACACAC;
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 7%;
+	margin-left: 10px;
+	
+}
+.dateheader2{
+	color: #ACACAC;
+	width: 120px;
+	height: 30px;
+	position: absolute;
+	top: 45%;
+	margin-left: 10px;
+}
+.card{
+	width: 400px;
+	height: 410px;
+	background-color: white;
+	border-radius: 5px;
+	margin-top: 12%;
+	margin-right: 5%;
+	margin-left: 10px;	
+}
+.card:nth-child(6){
+	position: absolute;
+	top: 30%;
+	width: 360px;
+}
+.card:nth-child(7){	
+	position: absolute;
+	top: 30%;
+	left: 33%;
+	width: 360px;
+}
+.card:nth-child(8){
+	
+	position: absolute;
+	top: 30%;
+	left: 51%;
+	width: 360px;
+}
+.status{
+	width: 15%;
+	height: 100%;
+	background-color: #3AC183;
+	border-radius: 5px 0px 0px 5px; 
+}
+.status2{
+	width: 15%;
+	height: 100%;
+	background-color: #F7BF38;
+	border-radius: 5px 0px 0px 5px; 
+}
+.status3{
+	width: 15%;
+	height: 100%;
+	background-color: #ACACAC;
+	border-radius: 5px 0px 0px 5px; 
+}
+
+.date{
+	color: #ACACAC;
+	font-size: 13px;
+	margin-top: 3%;
+	margin-right: 10%;
+}
+
 .icons img{
 	margin-top: 5%;
 	width: 15px;
@@ -57,19 +120,141 @@
 	width: 13px;
 }
 .topsegment{
+	
 	display: flex;
-
 }
 .social img{
 	width: 16px;
 	margin-right: 3%;
 	margin-left: 5%;
+	margin-top: 5%;
+	
 }
 .social label{
 	color: #ACACAC;
 	font-size: 14px;
 	margin-right: 5%;
+	
 }
 .social img:nth-child(4){
-	width: 22px;
+	width: 25px;
+}
+.dot1,.dot2,.dot3,.dot4,.dot5{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.dot1{
+	background-color: #ACACAC ;
+}
+.dot2{
+	background-color: #3AC183 ;
+}
+.dot3{
+	background-color: #F7BF38 ;
+}
+.dot4{
+	background-color: #FB6450 ;
+}
+.dot5{
+	background-color: #67B1F2 ;
+}
+@media screen and (max-width: 1600px) {
+	.card:nth-child(8){
+	
+		position: absolute;
+		top: 60%;
+		width: 360px;
+	}
+	.card:nth-child(6){
+	
+		position: absolute;
+		top: 60%;
+		left: 45%;
+		width: 360px;
+	}
+	.card:nth-child(7){
+	
+		position: absolute;
+		top: 60%;
+		left: 72%;
+		width: 360px;
+	}
+	.dateheader2{
+		color: #ACACAC;
+		width: 120px;
+		height: 30px;
+		position: absolute;
+		top: 62%;
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.card:nth-child(8){
+	
+		position: absolute;
+		top: 80%;
+		width: 360px;
+	}
+	.card:nth-child(6){
+	
+		position: absolute;
+		top: 80%;
+		left: 50%;
+		width: 360px;
+	}
+	.card:nth-child(7){
+	
+		position: absolute;
+		top: 80%;
+		left: 82%;
+		width: 360px;
+	}
+	.dateheader2{
+		color: #ACACAC;
+		width: 120px;
+		height: 30px;
+		position: absolute;
+		top: 82%;
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.card:nth-child(5){
+	
+		position: absolute;
+		top: 80%;
+		width: 360px;
+		z-index: -1;
+	}
+	.card:nth-child(6){
+	
+		position: absolute;
+		top: 80%;
+		left: 54%;
+		width: 360px;
+	}
+	.card:nth-child(7){
+	
+		position: absolute;
+		top: 80%;
+		left: 90%;
+		width: 360px;
+	}
+	.dateheader{
+		color: #ACACAC;
+		width: 120px;
+		height: 30px;
+		position: absolute;
+		margin-left: 25px;
+	}
+	.dateheader2{
+		color: #ACACAC;
+		width: 120px;
+		height: 30px;
+		position: absolute;
+		top: 80%;
+		margin-left: 25px;
+	}
 }
