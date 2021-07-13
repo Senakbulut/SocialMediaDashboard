@@ -26,7 +26,9 @@ body {
 	height: 100%;
 	background-color: #393D42;
 }
-
+.redline{
+	background-color: #F55661;
+}
 h1 {
 	font-weight: bold;
 	margin-bottom: 50px;
